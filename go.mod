@@ -15,8 +15,8 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.32.14
 	github.com/aws/aws-sdk-go-v2/credentials v1.19.14
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.21
-	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.22.12
-	github.com/aws/aws-sdk-go-v2/service/accessanalyzer v1.45.12
+	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.22.13
+	github.com/aws/aws-sdk-go-v2/service/accessanalyzer v1.47.0
 	github.com/aws/aws-sdk-go-v2/service/account v1.30.5
 	github.com/aws/aws-sdk-go-v2/service/acm v1.38.1
 	github.com/aws/aws-sdk-go-v2/service/acmpca v1.46.12
@@ -59,7 +59,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/cloudformation v1.71.9
 	github.com/aws/aws-sdk-go-v2/service/cloudfront v1.61.0
 	github.com/aws/aws-sdk-go-v2/service/cloudfrontkeyvaluestore v1.12.24
-	github.com/aws/aws-sdk-go-v2/service/cloudhsmv2 v1.34.21
+	github.com/aws/aws-sdk-go-v2/service/cloudhsmv2 v1.34.22
 	github.com/aws/aws-sdk-go-v2/service/cloudsearch v1.32.12
 	github.com/aws/aws-sdk-go-v2/service/cloudtrail v1.55.9
 	github.com/aws/aws-sdk-go-v2/service/cloudwatch v1.56.0
@@ -80,7 +80,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/comprehend v1.40.21
 	github.com/aws/aws-sdk-go-v2/service/computeoptimizer v1.49.8
 	github.com/aws/aws-sdk-go-v2/service/configservice v1.62.1
-	github.com/aws/aws-sdk-go-v2/service/connect v1.167.0
+	github.com/aws/aws-sdk-go-v2/service/connect v1.168.0
 	github.com/aws/aws-sdk-go-v2/service/connectcases v1.39.1
 	github.com/aws/aws-sdk-go-v2/service/controltower v1.28.9
 	github.com/aws/aws-sdk-go-v2/service/costandusagereportservice v1.34.13
@@ -92,25 +92,25 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/dataexchange v1.41.0
 	github.com/aws/aws-sdk-go-v2/service/datapipeline v1.30.20
 	github.com/aws/aws-sdk-go-v2/service/datasync v1.58.2
-	github.com/aws/aws-sdk-go-v2/service/datazone v1.55.0
+	github.com/aws/aws-sdk-go-v2/service/datazone v1.56.0
 	github.com/aws/aws-sdk-go-v2/service/dax v1.29.16
 	github.com/aws/aws-sdk-go-v2/service/detective v1.38.13
 	github.com/aws/aws-sdk-go-v2/service/devicefarm v1.38.8
 	github.com/aws/aws-sdk-go-v2/service/devopsguru v1.40.12
 	github.com/aws/aws-sdk-go-v2/service/directconnect v1.38.15
 	github.com/aws/aws-sdk-go-v2/service/directoryservice v1.38.16
-	github.com/aws/aws-sdk-go-v2/service/dlm v1.35.16
+	github.com/aws/aws-sdk-go-v2/service/dlm v1.36.0
 	github.com/aws/aws-sdk-go-v2/service/docdb v1.48.13
 	github.com/aws/aws-sdk-go-v2/service/docdbelastic v1.20.13
 	github.com/aws/aws-sdk-go-v2/service/drs v1.36.13
 	github.com/aws/aws-sdk-go-v2/service/dsql v1.12.8
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.57.1
-	github.com/aws/aws-sdk-go-v2/service/ec2 v1.296.2
+	github.com/aws/aws-sdk-go-v2/service/ec2 v1.297.0
 	github.com/aws/aws-sdk-go-v2/service/ecr v1.56.2
 	github.com/aws/aws-sdk-go-v2/service/ecrpublic v1.38.13
-	github.com/aws/aws-sdk-go-v2/service/ecs v1.76.0
+	github.com/aws/aws-sdk-go-v2/service/ecs v1.77.0
 	github.com/aws/aws-sdk-go-v2/service/efs v1.41.14
-	github.com/aws/aws-sdk-go-v2/service/eks v1.81.2
+	github.com/aws/aws-sdk-go-v2/service/eks v1.82.0
 	github.com/aws/aws-sdk-go-v2/service/elasticache v1.52.0
 	github.com/aws/aws-sdk-go-v2/service/elasticbeanstalk v1.34.2
 	github.com/aws/aws-sdk-go-v2/service/elasticloadbalancing v1.33.23
@@ -135,7 +135,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/grafana v1.33.4
 	github.com/aws/aws-sdk-go-v2/service/greengrass v1.32.21
 	github.com/aws/aws-sdk-go-v2/service/groundstation v1.40.4
-	github.com/aws/aws-sdk-go-v2/service/guardduty v1.74.2
+	github.com/aws/aws-sdk-go-v2/service/guardduty v1.75.0
 	github.com/aws/aws-sdk-go-v2/service/healthlake v1.36.13
 	github.com/aws/aws-sdk-go-v2/service/iam v1.53.7
 	github.com/aws/aws-sdk-go-v2/service/identitystore v1.36.5
@@ -157,12 +157,12 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/kinesisvideo v1.33.8
 	github.com/aws/aws-sdk-go-v2/service/kms v1.50.4
 	github.com/aws/aws-sdk-go-v2/service/lakeformation v1.47.6
-	github.com/aws/aws-sdk-go-v2/service/lambda v1.88.5
+	github.com/aws/aws-sdk-go-v2/service/lambda v1.89.0
 	github.com/aws/aws-sdk-go-v2/service/launchwizard v1.14.4
 	github.com/aws/aws-sdk-go-v2/service/lexmodelbuildingservice v1.34.14
 	github.com/aws/aws-sdk-go-v2/service/lexmodelsv2 v1.60.2
 	github.com/aws/aws-sdk-go-v2/service/licensemanager v1.37.10
-	github.com/aws/aws-sdk-go-v2/service/lightsail v1.52.0
+	github.com/aws/aws-sdk-go-v2/service/lightsail v1.53.0
 	github.com/aws/aws-sdk-go-v2/service/location v1.50.13
 	github.com/aws/aws-sdk-go-v2/service/m2 v1.26.14
 	github.com/aws/aws-sdk-go-v2/service/macie2 v1.50.13
@@ -194,7 +194,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/opensearchserverless v1.30.1
 	github.com/aws/aws-sdk-go-v2/service/organizations v1.51.1
 	github.com/aws/aws-sdk-go-v2/service/osis v1.21.14
-	github.com/aws/aws-sdk-go-v2/service/outposts v1.57.15
+	github.com/aws/aws-sdk-go-v2/service/outposts v1.58.0
 	github.com/aws/aws-sdk-go-v2/service/paymentcryptography v1.28.0
 	github.com/aws/aws-sdk-go-v2/service/pcaconnectorad v1.15.21
 	github.com/aws/aws-sdk-go-v2/service/pcs v1.17.1
@@ -226,7 +226,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/route53recoveryreadiness v1.26.21
 	github.com/aws/aws-sdk-go-v2/service/route53resolver v1.42.5
 	github.com/aws/aws-sdk-go-v2/service/rum v1.30.10
-	github.com/aws/aws-sdk-go-v2/service/s3 v1.98.0
+	github.com/aws/aws-sdk-go-v2/service/s3 v1.99.0
 	github.com/aws/aws-sdk-go-v2/service/s3control v1.69.0
 	github.com/aws/aws-sdk-go-v2/service/s3outposts v1.34.12
 	github.com/aws/aws-sdk-go-v2/service/s3tables v1.15.0
@@ -266,7 +266,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/timestreamquery v1.36.14
 	github.com/aws/aws-sdk-go-v2/service/timestreamwrite v1.35.20
 	github.com/aws/aws-sdk-go-v2/service/transcribe v1.54.4
-	github.com/aws/aws-sdk-go-v2/service/transfer v1.69.5
+	github.com/aws/aws-sdk-go-v2/service/transfer v1.70.0
 	github.com/aws/aws-sdk-go-v2/service/uxc v1.0.1
 	github.com/aws/aws-sdk-go-v2/service/verifiedpermissions v1.32.1
 	github.com/aws/aws-sdk-go-v2/service/vpclattice v1.20.11
